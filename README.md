@@ -158,8 +158,6 @@ TARGET_DIRECTORY=bronze
 DB_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
-> Observação: o código de ingestão usa `TARGET_DIRECTORY`, mas essa variável não aparece no `.env.example` atual. Adicione-a no seu `.env`.
-
 ### 4. Provisionar infraestrutura
 
 Entre na pasta `terraform/` e execute:
